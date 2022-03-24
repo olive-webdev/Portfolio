@@ -1,0 +1,8 @@
+[
+    {
+        "title" : "groupomania, coucou",
+        "img": "./img/webp/groupomania.webp",
+        "description" : "Création d'un réseau social d'entreprise, inscription, connexion, authorisation, gestion du profil, création de post avec images, emojis, réponses en commentaires, like, et signalement. Administration par superUtilisateur, suppression de post, messages, profil. Base de données Mysql. Design inspiré du logo, seul élément fournit.",
+        "links" : [{"title" :"Voir le code sur Github", "link" : "https://github.com/olive-webdev/OlivierBlachere_7_21082021"}, {"title" : "voir sur Youtube", "link" : "https://www.youtube.com/watch?v=YIBctgj1bZA"}]
+    }
+]

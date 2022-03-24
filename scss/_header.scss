@@ -27,7 +27,7 @@ header {
     color:  #9c009c;
     font-weight: 600;
     font-size: 24px;
-    transition: background .4s ease;
+    transition: all .4s ease;
     &:hover{
       background:  #9c009c;
       color:white
@@ -65,7 +65,7 @@ header {
           padding: 0.5rem 1rem;
           text-decoration: none;
           color: #2b6cb0;
-          transition: background .4s ease;
+          transition: all .4s ease;
           &:hover{
             color: white;
             background: #2b6cb0;

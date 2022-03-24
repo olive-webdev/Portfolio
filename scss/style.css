@@ -29,7 +29,7 @@ header > a {
   color: #9c009c;
   font-weight: 600;
   font-size: 24px;
-  transition: background 0.4s ease;
+  transition: all 0.4s ease;
 }
 header > a:hover {
   background: #9c009c;
@@ -75,7 +75,7 @@ header nav ul li a {
   padding: 0.5rem 1rem;
   text-decoration: none;
   color: #2b6cb0;
-  transition: background 0.4s ease;
+  transition: all 0.4s ease;
 }
 header nav ul li a:hover {
   color: white;
@@ -235,19 +235,46 @@ footer address {
   padding: 4rem 0;
   font-size: 20px;
 }
-footer address a {
+footer address a:not(.btt) {
   font-size: 20px;
   text-decoration: none;
   color: #3b3d4a;
   margin-right: 1rem;
 }
-footer address a img {
+footer address a:not(.btt) img {
   margin-top: 1rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+}
+footer address a:not(.btt) img.linkedin {
+  border: 1px solid #0e4fb5;
+  background: #0e4fb5;
+}
+footer address a:not(.btt) img.linkedin:hover {
+  height: 40px;
+}
+footer address a:not(.btt) img.twitter {
+  border: 1px solid #1c86ec;
+}
+footer address a:not(.btt) img.twitter:hover {
+  height: 40px;
+}
+footer #social {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+footer #social li {
+  width: 64px;
 }
 footer .btt {
   position: absolute;
   bottom: -12rem;
   right: -1rem;
+}
+footer .btt:hover {
+  color: red;
 }
 
 ::-webkit-scrollbar {

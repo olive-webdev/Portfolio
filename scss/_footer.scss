@@ -6,19 +6,46 @@ footer{
         font-style: normal;
         padding: 4rem 0;
         font-size: 20px;
-        & a{
+        & a:not(.btt){
             font-size: 20px;
             text-decoration: none;
             color: hsl(231, 11%, 26%);
             margin-right: 1rem;
             & img{
                 margin-top: 1rem;
+                padding: .3rem;
+                border-radius: .3rem;
+                &.linkedin{
+                    border: 1px solid rgb(14,79,181);
+                    background: rgb(14,79,181);
+                    &:hover{
+                        height: 40px;
+                    }
+                }
+                &.twitter{
+                    border: 1px solid rgb(28,134,236);
+                    &:hover{
+                        height: 40px;
+                    }
+                }
             }
+        }
+    }
+    #social{
+        height: 60px;
+        display: flex;
+        align-items: center;
+        list-style: none;
+        & li{
+            width: 64px;
         }
     }
     .btt{
         position: absolute;
         bottom: -12rem;
         right: -1rem;
+        &:hover{
+            color: red;
+        }
     }
 }
